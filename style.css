@@ -9,3 +9,26 @@ nav {
   display: flex;
   justify-content: space-between;
 }
+
+h1 {
+  font-size: 52px;
+  margin-bottom: 32px;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.6;
+  margin-bottom: 48px;
+}
+
+.button:link,
+.button:visited {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 16px 32px;
+  border-radius: 9px;
+  background-color: #e67e22;
+  color: #fff;
+}
