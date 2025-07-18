@@ -15,6 +15,7 @@ html {
 }
 
 header {
+  position: relative;
   height: 100vh;
 }
 
@@ -25,8 +26,22 @@ nav {
   justify-content: space-between;
 }
 
+.header-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+  width: 1200px;
+}
+
+.header-container-inner {
+  max-width: 50%;
+}
+
 h1 {
   font-size: 52px;
+  line-height: 1.05;
   margin-bottom: 32px;
 }
 
